@@ -1,15 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 body {
-    background-color: #fff; /* Light mode background */
-    color: #000; /* Light mode text color */
-  }
-  
-  @media (prefers-color-scheme: dark) {
-    body {
-      background-color: #000; /* Dark mode background */
-      color: #fff; /* Dark mode text color */
-    }
-  }
-  
+    background-color: #000; /* Dark mode background */
+    color: #fff; /* Dark mode text color */
+}
